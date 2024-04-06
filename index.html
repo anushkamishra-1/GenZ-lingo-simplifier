@@ -1,0 +1,38 @@
+<!-- This is index in html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="profileicon.png" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>GENZ language simplifier</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <button id="popup-btn">Open Popup</button>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                
+                <p><b>Info:</b><br>1.This is just for fun.<br>2.Input the genz lingo in all caps or all small.<br>
+                3.Go ahead and simplify things for yourself now.<br>Arigato Gozaimasu</p>
+                
+            </div>
+        </div>
+        <script src="popupscript.js"></script>
+
+        <div class="container">
+            <textarea name="" id="input" cols="30" rows="10" class="input" placeholder="GenZ lingo"></textarea>
+            <div id="output" class="output">
+            <span style="color:rgb(43, 2, 52);">Simplify the language.</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="translatorGENZ.js"></script>
+    </body>
+
+</html>
